@@ -1,0 +1,24 @@
+{
+  "name": "simulador-ecred",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "runTest": "npm run test --"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariemmulhmann/simulador-ecred.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariemmulhmann/simulador-ecred/issues"
+  },
+  "homepage": "https://github.com/mariemmulhmann/simulador-ecred#readme",
+  "devDependencies": {
+    "cypress": "^12.4.1"
+  }
+}
