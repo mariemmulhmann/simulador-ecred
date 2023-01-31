@@ -5,7 +5,11 @@
   "main": "cypress.config.js",
   "scripts": {
     "cy:open": "cypress open",
-    "test-e2e": "cypress run --spec 'cypress/e2e'"
+    "test-e2e": "cypress run --spec 'cypress/e2e/sequential/simuladorEcred.UI.spec.cy.js'",
+    "test-parallel-1": "cypress run --spec 'cypress/e2e/parallel/simulacao6Parcelas_UI.spec.cy.js'",
+    "test-parallel-2": "cypress run --spec 'cypress/e2e/parallel/simulacao12Parcelas_UI.spec.cy.js'",
+    "test-parallel-3": "cypress run --spec 'cypress/e2e/parallel/simulacao24Parcelas_UI.spec.cy.js'"
+
   },
   "repository": {
     "type": "git",

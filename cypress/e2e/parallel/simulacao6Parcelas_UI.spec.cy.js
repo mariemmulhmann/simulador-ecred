@@ -1,6 +1,6 @@
 ///<reference types="cypress" />
-const dadosSimuladorEcred = require ('../fixtures/simuladorEcred.json');
-const simuladorEcredPage  = require ('../support/pageObjects/simuladorEcred.page');
+const dadosSimuladorEcred = require ('../../fixtures/simuladorEcred.json');
+const simuladorEcredPage  = require ('../../support/pageObjects/simuladorEcred.page');
 
 /*
 docTeste({
@@ -9,8 +9,6 @@ docTeste({
                        confirmando a apresentação dos valores de 'Parcela mensagem aproximada' conforme interação dos dois sliders;
     preRequisitos    : não se aplica;
     cenariosTeste    : C01 - Dado que preciso de R$1.000 | Quando solicito 06 parcelas para pagamento | Então o valor da parcela a ser paga será de R$271,27;
-                       C02 - Dado que preciso de R$4.000 | Quando solicito 12 parcelas para pagamento | Então o valor da parcela a ser paga será de R$478,49;
-                       C03 - Dado que preciso de R$8.000 | Quando solicito 24 parcelas para pagamento | Então o valor da parcela a ser paga será de R$347,89;
     resultadoEsperado: ao modificar os sliders o valor da parcela deverá ser coerente as dados de entrada 'De quanto você precisa' e 'Em quantos meses quer pagar?';
 })*/
 
@@ -22,13 +20,5 @@ describe('Simulação de crédito - eCred', () => {
 
     it('Crédito de R$1.000 em 6 parcelas', () => {
         simuladorEcredPage.fillForm(dadosSimuladorEcred.simulacaoEcred_E2E.C01);
-    });
-
-    it('Crédito de R$4.000 em 12 parcelas', () => {
-        simuladorEcredPage.fillForm(dadosSimuladorEcred.simulacaoEcred_E2E.C02); 
-    });
-
-    it('Crédito de R$6.000 em  24 parcelas', () => {
-        simuladorEcredPage.fillForm(dadosSimuladorEcred.simulacaoEcred_E2E.C03);
     });
 });

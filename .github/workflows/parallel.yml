@@ -1,7 +1,7 @@
 name: End-to-end tests
 on: [push]
 jobs:
-  cypress-run-e2e:
+  cypress-run-parallel-1:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -10,4 +10,26 @@ jobs:
       - name: Run Cypress tests
         uses: cypress-io/github-action@v5
         with:
-          command: npm run test-e2e
+          command: npm run test-parallel-1
+
+  cypress-run-parallel-2:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v5
+        with:
+          command: npm run test-parallel-2
+
+  cypress-run-parallel-3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        
+      - name: Run Cypress tests
+        uses: cypress-io/github-action@v5
+        with:
+          command: npm run test-parallel-3
