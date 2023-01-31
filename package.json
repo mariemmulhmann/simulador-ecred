@@ -4,9 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "cypress:ci": "concurrently \"cypress run\" --kill-others \"ng serve\" --success first"
- /* "test": "node_modules\\.bin\\cypress run",
-    "runTest": "npm run test --"*/
+    "cy:open": "cypress open",
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
