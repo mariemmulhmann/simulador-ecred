@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/mariemmulhmann/simulador-ecred#readme",
   "devDependencies": {
+    "concurrently": "^7.6.0",
     "cypress": "^12.4.1"
   }
 }
