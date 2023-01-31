@@ -1,0 +1,28 @@
+{
+    "simulacaoEcred_E2E":{
+      "C01":{
+        "amountSlider": 1000,
+        "amountText"  : "R$ 1.000,00",
+        "mouthsSlider": 0,
+        "mouthsText"  : "6",
+        "installmentValue": "271,27"
+      },
+  
+      "C02":{
+        "amountSlider": 4000,
+        "amountText"  : "R$ 4.000,00",
+        "mouthsSlider": 12,
+        "mouthsText"  : "12",
+        "installmentValue": "478,49"
+      },
+  
+      "C03":{
+        "amountSlider": 8000,
+        "amountText"  : "R$ 8.000,00",
+        "mouthsSlider": 24,
+        "mouthsText"  : "24",
+        "installmentValue": "517,19"
+      }
+    }
+  }
+  

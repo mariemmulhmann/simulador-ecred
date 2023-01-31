@@ -1,4 +1,6 @@
 ///<reference types="cypress" />
+const dadosSimuladorEcred = require ('../fixtures/simuladorEcred.json');
+const simuladorEcredPage  = require ('../support/pageObjects/simuladorEcred.page');
 
 /*
 docTeste({
@@ -19,11 +21,14 @@ describe('Simulação de crédito - eCred', () => {
     }); 
 
     it('Crédito de R$1.000 em 6 parcelas', () => {
+        simuladorEcredPage.fillForm(dadosSimuladorEcred.simulacaoEcred_E2E.C01);
     });
 
     it('Crédito de R$4.000 em 12 parcelas', () => {
+        simuladorEcredPage.fillForm(dadosSimuladorEcred.simulacaoEcred_E2E.C02); 
     });
 
     it('Crédito de R$6.000 em  24 parcelas', () => {
+        simuladorEcredPage.fillForm(dadosSimuladorEcred.simulacaoEcred_E2E.C03);
     });
 });
