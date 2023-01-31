@@ -1,0 +1,27 @@
+2023-01-31T12:58:32.3089181Z Current runner version: '2.301.1'
+2023-01-31T12:58:32.3116181Z ##[group]Operating System
+2023-01-31T12:58:32.3116976Z Ubuntu
+2023-01-31T12:58:32.3117258Z 22.04.1
+2023-01-31T12:58:32.3117472Z LTS
+2023-01-31T12:58:32.3117839Z ##[endgroup]
+2023-01-31T12:58:32.3118140Z ##[group]Runner Image
+2023-01-31T12:58:32.3118433Z Image: ubuntu-22.04
+2023-01-31T12:58:32.3118734Z Version: 20230122.1
+2023-01-31T12:58:32.3119280Z Included Software: https://github.com/actions/runner-images/blob/ubuntu22/20230122.1/images/linux/Ubuntu2204-Readme.md
+2023-01-31T12:58:32.3119841Z Image Release: https://github.com/actions/runner-images/releases/tag/ubuntu22%2F20230122.1
+2023-01-31T12:58:32.3120256Z ##[endgroup]
+2023-01-31T12:58:32.3120601Z ##[group]Runner Image Provisioner
+2023-01-31T12:58:32.3120889Z 2.0.98.1
+2023-01-31T12:58:32.3121192Z ##[endgroup]
+2023-01-31T12:58:32.3121827Z ##[group]GITHUB_TOKEN Permissions
+2023-01-31T12:58:32.3122330Z Contents: read
+2023-01-31T12:58:32.3122632Z Metadata: read
+2023-01-31T12:58:32.3122950Z Packages: read
+2023-01-31T12:58:32.3123423Z ##[endgroup]
+2023-01-31T12:58:32.3127109Z Secret source: Actions
+2023-01-31T12:58:32.3127640Z Prepare workflow directory
+2023-01-31T12:58:32.3960225Z Prepare all required actions
+2023-01-31T12:58:32.4147960Z Getting action download info
+2023-01-31T12:58:32.5982930Z Download action repository 'actions/checkout@v3' (SHA:ac593985615ec2ede58e132d2e21d2b1cbd6127c)
+2023-01-31T12:58:32.9540418Z Download action repository 'cypress-io/github-action@v5' (SHA:4518ee168c713f4cd9ab2428860ffe168a38c347)
+2023-01-31T12:58:33.4131774Z Complete job name: cypress-run
