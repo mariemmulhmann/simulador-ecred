@@ -1,0 +1,86 @@
+Ferramenta utilizada: Lighthouse (Extensão google)
+Sugestão: Para um relatório completo de acessibilidade/performace e boas práticas, utilizar ferramenta: Wave (extensão chrome)
+
+Performace:
+	- Tempo para que o primeiro item é apresentado em tela: 2.1s
+	- Tempo que a tela leva para se tornar totalmente interativa: 11.8s
+
+Acessibilidade:
+	- Botão não possui nome acessível a leitores de tela: div#question-input > div.question-slider > div.slidetrack > input#slider-range
+	- Label do elemento não segue adequadamento às tratativas tecnológicas - <input class="slider" id="slider-range" type="range" value="5000" min="250" max="30000" step="250">
+	- Label do elemento não segue adequadamento às tratativas tecnológicas - div#question-input > div.question-slider > div.slidetrack > input#slider-range-month
+	- Elemento não possui título: div#step-block > div > div.video-container > iframe#video-step
+	- Elementos com contraste baixo (dificulta leitura para usuários com baixa visão):{
+		* <span class="ecs_hl_aj ecs_hl_an ecs_hl_ay ecs_hl_az ecs_hl_at">
+		* <header class="ecs_hl_n ecs_hl_ha ecs_hl_o">
+		* <p id="amount">
+		* <div id="question-input">
+		* <p id="month-amount">
+		* <div id="question-input">
+		* <div id="month-amount-output">
+		* <div id="answer-output">
+		* <span id="price-sign">
+		* <div id="answer-output">
+		* <span id="price-number">
+		* <div id="answer-output">
+		* <a href="https://www.serasa.com.br/ecred/emprestimo-pessoal/" target="_blank" data-gtm-type="click" data-gtm-clicktype="button" data-gtm-name="simular-emprestimo-pessoal">
+		* <body onload="dispatchPageView()">
+		* <a href="https://www.serasa.com.br/ecred/" target="_blank" data-gtm-type="click" data-gtm-clicktype="button" data-gtm-name="Simule no Serasa eCred">
+		* <body onload="dispatchPageView()">
+		* <a href="/ecred/emprestimo-com-guarantee-de-imovel" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="loan-com-guarantee-de -imovel">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/loan-with-cell-phone guarantee" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="loan-with-guarantee -from-mobile">
+		* <section class="footer-gray">
+		* <a href="/ecred/loans/loan-with-vehicle-guarantee" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="loan-with-guarantee -by-vehicle">
+		* <section class="footer-gray">
+		* <a href="/ecred/emprestimo-para-autonomo" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="emprestimo-para-autonomo">
+		* <section class="footer-gray">
+		* <a href="/ecred/negative-self-loan" data-gtm-type="click" data-gtm-clicktype="footer" data-gtm-name="negative-self-loan">
+		* <section class="footer-gray">
+		* <a href="/ecred/loan-without-proof-of-income" data-gtm-type="click" data-gtm-clicktype="footer" data-gtm-name="loan-without-proof-of-income -lace">
+		* <section class="footer-gray">
+		* <a href="/ecred/loan-for-negative" data-gtm-type="click" data-gtm-clicktype="footer" data-gtm-name="loan-for-negative">
+		* <section class="footer-gray">
+		* <a href="/ecred/simulador" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="simulador">
+		* <section class="footer-gray">
+		* <a href="/ecred/payroll-credit-card" data-gtm-type="click" data-gtm-clicktype="footer" data-gtm-name="paycheck-credit-card">
+		* <section class="footer-gray">
+		* <a href="/ecred/cartao-pre-pago" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="cartao-pre-pago">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/crefaz" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="crefaz">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/credicard" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="credicard">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/bcredi" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="bcredi">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/itau" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="itau">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/lendico" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="lendico">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/geru" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="geru">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/pan" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="banco-pan">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/simplic" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="simplic">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/finamax" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="finamax-sa-cfi">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/creditas" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="creditas">
+		* <a href="/ecred/parceiros/jeitto" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="jeitto">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/bv-financeira" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="bv">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/digio" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="digio">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/sim" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="sim">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/bms" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="platform-mscred">
+		* <section class="footer-gray">
+		* <a href="/ecred/parceiros/provu" data-gtm-type="click" data-gtm-clicktype="rodape" data-gtm-name="provu">
+		* <p itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+		* <footer class="ecs_footer">
+		* <p itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+		* <footer class="ecs_footer">
+		* <p itemprop="address" itemscope="" itemtype="https://schema.org/PostalAddress">
+		* <footer class="ecs_footer">
+	}
