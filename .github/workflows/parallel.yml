@@ -1,7 +1,7 @@
 name: End-to-end tests
 on: [push]
 jobs:
-  cypress-run:
+  cypress-run-e2e:
     runs-on: ubuntu-20.04
     steps:
       - name: Checkout
@@ -9,3 +9,5 @@ jobs:
 
       - name: Cypress run
         usus: cypress-io/github-action@v4
+        with:
+          command: npm run test-e2e
