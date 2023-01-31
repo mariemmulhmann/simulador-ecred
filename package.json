@@ -2,7 +2,7 @@
   "name": "simulador-ecred",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "cypress.config.js",
   "scripts": {
     "cy:open": "cypress open",
     "test-e2e": "cypress run --spec 'cypress/e2e'"
